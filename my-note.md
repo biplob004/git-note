@@ -124,6 +124,6 @@ Force push to upstream
 `git push origin main --force`
 
 Delete branch from github (upstream)
-git push origin --delete <branch-name>
-
+`git push origin --delete <branch-name>
+`
 
