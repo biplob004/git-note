@@ -109,3 +109,12 @@ This can help keep your `git status` output cleaner when you have many temporary
     ```
     Use with caution, as this removes all your saved stashes permanently.
 
+
+
+---
+
+| Task                                  | Command                    |
+| ------------------------------------- | -------------------------- |
+| Undo a commit, keep changes staged    | `git reset --soft HEAD~1`  |
+| Undo a commit, keep changes unstaged  | `git reset --mixed HEAD~1` |
+| Undo a commit and discard all changes | `git reset --hard HEAD~1`  |
