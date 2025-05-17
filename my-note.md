@@ -118,3 +118,12 @@ This can help keep your `git status` output cleaner when you have many temporary
 | Undo a commit, keep changes staged    | `git reset --soft HEAD~1`  |
 | Undo a commit, keep changes unstaged  | `git reset --mixed HEAD~1` |
 | Undo a commit and discard all changes | `git reset --hard HEAD~1`  |
+
+
+Force push to upstream 
+`git push origin main --force`
+
+Delete branch from github (upstream)
+git push origin --delete <branch-name>
+
+
