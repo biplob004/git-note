@@ -129,20 +129,20 @@ Delete branch from github (upstream)
 
 
 ---
-### Bring changes specific files only
+## Bring changes specific files only
 
-# Add the fork as a remote
-git remote add fork-name https://github.com/username/forked-repo.git
+#### Add the fork as a remote
+`git remote add fork-name https://github.com/username/forked-repo.git
+`
+##### Fetch changes from the fork
+`git fetch fork-name`
 
-# Fetch changes from the fork
-git fetch fork-name
+##### Cherry-pick specific commits (this brings entire commits)
+`git cherry-pick <commit-hash>`
 
-# Cherry-pick specific commits (this brings entire commits)
-git cherry-pick <commit-hash>
-
-# If you want only specific files from a commit:
-git show <commit-hash> -- path/to/file > temp.patch
-git apply temp.patch
+##### If you want only specific files from a commit:
+`git show <commit-hash> -- path/to/file > temp.patch`
+`git apply temp.patch`
 
 
 
