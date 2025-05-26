@@ -144,5 +144,9 @@ Delete branch from github (upstream)
 `git show <commit-hash> -- path/to/file > temp.patch`
 `git apply temp.patch`
 
+#### Delete cache for remote repo 
+`git fetch origin --prune`
 
+#### Delete remote branch
+`git push origin --delete feature/branch-name`
 
