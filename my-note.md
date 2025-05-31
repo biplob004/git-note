@@ -150,3 +150,7 @@ Delete branch from github (upstream)
 #### Delete remote branch
 `git push origin --delete feature/branch-name`
 
+#### Create a local branch from remote branch 
+`git checkout -b dev-1 origin/dev-1`
+
+
